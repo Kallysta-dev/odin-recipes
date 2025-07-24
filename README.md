@@ -1,0 +1,1 @@
+This is a project inside The Odin Project where i'm going to create a simple recipe webpage using only HTML
