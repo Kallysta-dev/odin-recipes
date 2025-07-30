@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     background: rgb(28, 41, 34);
+    color: rgb(255, 255, 255);
 }
 
 a {
@@ -33,6 +34,14 @@ a {
     border: 3px solid rgb(255, 255, 255);
 
     display: flex;
-  align-items: center;     /* vertical centering */
-  justify-content: center; /* horizontal centering */
+    align-items: center;     /* vertical centering */
+    justify-content: center; /* horizontal centering */
+}
+
+.burger-image {
+    display: block;
+    margin: 0px auto 20px auto;
+    width: auto;
+    height: 50%;
+    border-radius: 10px;
 }
