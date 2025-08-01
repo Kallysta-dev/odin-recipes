@@ -43,5 +43,47 @@ a {
     margin: 0px auto 20px auto;
     width: auto;
     height: 50%;
+    border-radius: 20px;
+}
+
+.main-container {
+    width: 1500px;
+    height: auto;
+    margin: 10px auto  30px auto;
+    display: block;
+    text-align: center;
+    border: 3px solid white;
     border-radius: 10px;
 }
+
+.main-container p {
+    font-size: 24px;
+    margin: 0px auto 5px auto;
+    padding: 20px;
+}
+
+.main-container h1 {
+    font-size: 48px;
+}
+
+.main-container h2 {
+    margin: 10px auto;
+    font-size: 36px;
+}
+
+.main-container ul {
+    display: flex;
+    list-style: square;
+    padding: 0px 15px;
+    justify-content: center;
+    flex-wrap: wrap; /* allows items to wrap to the next line if needed */
+    margin: 10px auto;
+}
+
+.main-container ul li{
+    font-size: 18px;
+    margin: 10px 20px;
+    padding: 5px;
+    border: 2px solid white;
+}
+
